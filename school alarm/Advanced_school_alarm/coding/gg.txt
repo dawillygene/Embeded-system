@@ -1,0 +1,1 @@
+cd "/home/dawillybg/Desktop/" && g++ c++.cpp -o c++ && "/home/dawillybg/Desktop/"c++                                        
