@@ -1,0 +1,444 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 127000 0 0))
+   (shape (circ I1 127000 0 0))
+   (shape (circ I2 127000 0 0))
+   (shape (circ I3 127000 0 0))
+   (shape (circ I4 127000 0 0))
+   (shape (circ I5 127000 0 0))
+   (shape (circ I6 127000 0 0))
+   (shape (circ I7 127000 0 0))
+   (shape (circ I8 127000 0 0))
+   (shape (circ I9 127000 0 0))
+   (shape (circ I10 127000 0 0))
+   (shape (circ I11 127000 0 0))
+   (shape (circ I12 127000 0 0))
+   (shape (circ I13 127000 0 0))
+   (shape (circ I14 127000 0 0))
+   (shape (circ BOT 127000 0 0))
+  )
+  )
+  (network_out
+   (Net #00000 
+   (rule
+   )
+   (wire (path BOT 101600  -3524000 3000000 -3524000 1968500 -980000 1968500
+     -980000 1750000)
+    (connect (terminal pin MOSFET-0) (terminal pin NMCU1-0))
+   )
+   )
+   (Net #00001 
+   (rule
+   )
+   (wire (path BOT 101600  -980000 1496000 -746000 1496000 -746000 3048000)
+    (connect (terminal pin NMCU1-1) (terminal wire))
+   )
+   (wire (path BOT 101600  -746000 3250000 -254000 3250000 -254000 3429000
+     504000 3429000 504000 3250000)
+    (connect (terminal pin D3-1) (terminal pin D4-1))
+   )
+   (wire (path BOT 101600  1246000 3250000 762000 3250000 762000 3249999
+     698500 3249999 698500 3250000 504000 3250000)
+    (connect (terminal pin D2-1) (terminal pin D4-1))
+   )
+   (wire (path BOT 101600  -746000 3048000 -746000 3250000)
+    (connect (terminal wire) (terminal pin D3-1))
+   )
+   )
+   (Net #00003 
+   (rule
+   )
+   (wire (path BOT 101600  -980000 988000 -1390240 988000 -1390240 1750000
+     -2750000 1750000)
+    (connect (terminal pin NMCU1-3) (terminal pin J4-0))
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   (wire (path BOT 101600  -980000 734000 -1746000 734000 -1746000 250000)
+    (connect (terminal pin NMCU1-4) (terminal pin RELAY-1))
+   )
+   )
+   (Net #00005 
+   (rule
+   )
+   (wire (path BOT 101600  2000000 2234000 40544 2234000 40544 480000
+     -980000 480000)
+    (connect (terminal pin 220R-1) (terminal pin NMCU1-5))
+   )
+   )
+   (Net #00009 
+   (rule
+   )
+   (wire (path BOT 101600  -3242000 766000 -3242000 -444500 -2984500 -444500)
+    (connect (terminal pin "BATTERY PORT"-0) (terminal wire))
+   )
+   (wire (path BOT 101600  -2984500 -444500 -2476500 -444500 -2476500 -1397000
+     -2540000 -1397000 -2540000 -2413000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 101600  5261000 750000 5261000 -500000)
+    (connect (terminal pin SET-1) (terminal pin INCREMENT-1))
+   )
+   (wire (path BOT 101600  5261000 -500000 5261001 -500000 5261001 -1270000
+     5261000 -1270000 5261000 -1750000)
+    (connect (terminal pin INCREMENT-1) (terminal pin DECTREMENT-1))
+   )
+   (wire (path BOT 101600  3000000 3250000 2469682 3250000 2469682 1968500
+     762000 1968500 762000 -1587500)
+    (connect (terminal pin LCD-0) (terminal wire))
+   )
+   (wire (path BOT 101600  1520000 -3750000 1520000 -3937000 762000 -3937000
+     762000 -1587500)
+    (connect (terminal pin BLUETOOTH-2) (terminal wire))
+   )
+   (wire (path BOT 101600  5261000 -1750000 5261000 -3250000 4250000 -3250000)
+    (connect (terminal pin DECTREMENT-1) (terminal pin J10-0))
+   )
+   (wire (path BOT 101600  1520000 -3750000 1520000 -3250000 3250000 -3250000)
+    (connect (terminal pin BLUETOOTH-2) (terminal pin J9-0))
+   )
+   (wire (path BOT 101600  -571500 -1587500 -571500 -3754000 -750000 -3754000)
+    (connect (terminal wire) (terminal pin C3-1))
+   )
+   (wire (path BOT 101600  -3250000 -3750000 -3556000 -3750000 -3556000 -2603500)
+    (connect (terminal pin C2-1) (terminal wire))
+   )
+   (wire (path BOT 101600  -980000 -1552000 -1206500 -1552000 -1206500 -536000)
+    (connect (terminal pin NMCU1-13) (terminal wire))
+   )
+   (wire (path BOT 101600  -1206500 -536000 -1206500 250000 -1492000 250000)
+    (connect (terminal wire) (terminal pin RELAY-2))
+   )
+   (wire (path BOT 101600  -2540000 -2413000 -2540000 -2603500 -3556000 -2603500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 101600  -3556000 -2603500 -3556000 -2032000 -3119000 -2032000
+     -3119000 -2238000)
+    (connect (terminal wire) (terminal pin 7809-1))
+   )
+   (wire (path BOT 101600  -2103000 -2222000 -2103000 -2413000 -2540000 -2413000)
+    (connect (terminal pin U1-1) (terminal wire))
+   )
+   (wire (path BOT 101600  -3242000 -734000 -2984500 -734000 -2984500 -444500)
+    (connect (terminal pin J1-0) (terminal wire))
+   )
+   (wire (path BOT 101600  -571500 -1587500 -762000 -1587500 -762000 -1552000
+     -980000 -1552000)
+    (connect (terminal wire) (terminal pin NMCU1-13))
+   )
+   (wire (path BOT 101600  -750000 -3754000 -1206500 -3754000 -1206500 -3750000
+     -2000000 -3750000)
+    (connect (terminal pin C3-1) (terminal pin C1-1))
+   )
+   (wire (path BOT 101600  3762000 2000000 4254500 2000000 4254500 2222500
+     5261000 2222500 5261000 2000000)
+    (connect (terminal pin RTC-3) (terminal pin MODE-1))
+   )
+   (wire (path BOT 101600  5261000 2000000 5261000 750000)
+    (connect (terminal pin MODE-1) (terminal pin SET-1))
+   )
+   (wire (path BOT 101600  3250000 -3250000 4250000 -3250000)
+    (connect (terminal pin J9-0) (terminal pin J10-0))
+   )
+   (wire (path BOT 101600  -980000 -536000 -1206500 -536000)
+    (connect (terminal pin NMCU1-9) (terminal wire))
+   )
+   (wire (path BOT 101600  762000 -1587500 -571500 -1587500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 101600  -2286000 -3750000 -3250000 -3750000)
+    (connect (terminal wire) (terminal pin C2-1))
+    (attr bus)
+   )
+   (wire (path BOT 101600  -2000000 -3750000 -2286000 -3750000)
+    (connect (terminal pin C1-1) (terminal wire))
+    (attr bus)
+   )
+   )
+   (Net #00013 
+   (rule
+   )
+   (wire (path BOT 101600  -980000 -1806000 -1500000 -1806000 -1500000 -750000)
+    (connect (terminal pin NMCU1-14) (terminal pin J8-0))
+   )
+   (wire (path BOT 101600  -750000 -3500000 -750000 -2286000 -980000 -2286000
+     -980000 -1806000)
+    (connect (terminal pin C3-0) (terminal pin NMCU1-14))
+   )
+   (wire (path BOT 101600  -750000 -3500000 -1524000 -3500000 -1524000 -3250000
+     -2000000 -3250000)
+    (connect (terminal pin C3-0) (terminal pin C1-0))
+   )
+   (wire (path BOT 101600  -3250000 -3250000 -2000000 -3250000)
+    (connect (terminal pin C2-0) (terminal pin C1-0))
+   )
+   )
+   (Net #00014 
+   (rule
+   )
+   )
+   (Net #00015 
+   (rule
+   )
+   (wire (path BOT 101600  3762000 3250000 3762000 2857500 3000000 2857500
+     3000000 2000000)
+    (connect (terminal pin LCD-3) (terminal pin RTC-0))
+   )
+   (wire (path BOT 101600  3000000 2000000 3000000 1496000 1250000 1496000)
+    (connect (terminal pin RTC-0) (terminal pin NMCU1-28))
+   )
+   )
+   (Net #00016 
+   (rule
+   )
+   (wire (path BOT 101600  3508000 3250000 3508000 3492500 4000500 3492500
+     4000500 2603500 3254000 2603500 3254000 2000000)
+    (connect (terminal pin LCD-2) (terminal pin RTC-1))
+   )
+   (wire (path BOT 101600  3254000 2000000 3254000 1242000 1250000 1242000)
+    (connect (terminal pin RTC-1) (terminal pin NMCU1-27))
+   )
+   )
+   (Net #00017 
+   (rule
+   )
+   )
+   (Net #00021 
+   (rule
+   )
+   (wire (path BOT 101600  1250000 -28000 1460500 -28000 1460500 952500
+     3429000 952500)
+    (connect (terminal pin NMCU1-22) (terminal wire))
+   )
+   (wire (path BOT 101600  4861000 2000000 4861000 952500 3429000 952500)
+    (connect (terminal pin MODE-0) (terminal wire))
+   )
+   (wire (path BOT 101600  3429000 952500 3429000 500000 3750000 500000)
+    (connect (terminal wire) (terminal pin 10K4-0))
+   )
+   )
+   (Net #00022 
+   (rule
+   )
+   (wire (path BOT 101600  3250000 500000 3250000 825500 1587500 825500
+     1587500 -282000 1250000 -282000)
+    (connect (terminal pin 10K3-0) (terminal pin NMCU1-21))
+   )
+   (wire (path BOT 101600  3250000 500000 3250000 317500 4381500 317500
+     4381500 750000 4861000 750000)
+    (connect (terminal pin 10K3-0) (terminal pin SET-0))
+   )
+   )
+   (Net #00023 
+   (rule
+   )
+   (wire (path BOT 101600  2750000 500000 2750000 0 4381500 0
+     4381500 -500000 4861000 -500000)
+    (connect (terminal pin 10K2-0) (terminal pin INCREMENT-0))
+   )
+   (wire (path BOT 101600  2750000 500000 2750000 698500 1714500 698500
+     1714500 -536000 1250000 -536000)
+    (connect (terminal pin 10K2-0) (terminal pin NMCU1-20))
+   )
+   )
+   (Net #00024 
+   (rule
+   )
+   (wire (path BOT 101600  4861000 -1750000 2032000 -1750000 2032000 -790000)
+    (connect (terminal pin DECTREMENT-0) (terminal wire))
+   )
+   (wire (path BOT 101600  2250000 500000 2250000 63500 2032000 63500
+     2032000 -790000)
+    (connect (terminal pin 10K1-0) (terminal wire))
+   )
+   (wire (path BOT 101600  2032000 -790000 1250000 -790000)
+    (connect (terminal wire) (terminal pin NMCU1-19))
+   )
+   )
+   (Net #00025 
+   (rule
+   )
+   (wire (path BOT 101600  1250000 -1044000 1587500 -1044000 1587500 -2742633
+     1266000 -2742633 1266000 -3750000)
+    (connect (terminal pin NMCU1-18) (terminal pin BLUETOOTH-1))
+   )
+   )
+   (Net #00026 
+   (rule
+   )
+   (wire (path BOT 101600  1250000 -1298000 1012000 -1298000 1012000 -3750000)
+    (connect (terminal pin NMCU1-17) (terminal pin BLUETOOTH-0))
+   )
+   )
+   (Net #00029 
+   (rule
+   )
+   (wire (path BOT 101600  -2734000 -734000 -2734000 -1143000 -2667000 -1143000
+     -2667000 -2476500 -3373000 -2476500 -3373000 -2238000)
+    (connect (terminal pin J1-1) (terminal pin 7809-0))
+   )
+   )
+   (Net #00030 
+   (rule
+   )
+   (wire (path BOT 101600  -3500000 0 -3500000 -1270000 -3250000 -1270000
+     -3250000 -1750000)
+    (connect (terminal pin D1-1) (terminal pin J3-0))
+   )
+   (wire (path BOT 101600  -2865000 -2238000 -2865000 -1750000 -3250000 -1750000)
+    (connect (terminal pin 7809-2) (terminal pin J3-0))
+   )
+   )
+   (Net #00031 
+   (rule
+   )
+   (wire (path BOT 101600  -2357000 -2222000 -2357000 -2032000 -2250000 -2032000
+     -2250000 -1750000)
+    (connect (terminal pin U1-0) (terminal pin J2-0))
+   )
+   )
+   (Net #00032 
+   (rule
+   )
+   (wire (path BOT 101600  -2000000 1250000 -4000500 1250000 -4000500 3937000
+     4127500 3937000 4127500 2476500 3508000 2476500 3508000 2000000)
+    (connect (terminal pin J6-0) (terminal pin RTC-2))
+   )
+   (wire (path BOT 101600  -1849000 -2222000 -1849000 -1905000 -2000000 -1905000
+     -2000000 250000)
+    (connect (terminal pin U1-2) (terminal pin RELAY-0))
+   )
+   (wire (path BOT 101600  3508000 2000000 3508000 1500000 4250000 1500000)
+    (connect (terminal pin RTC-2) (terminal pin J12-0))
+   )
+   (wire (path BOT 101600  -2000000 1250000 -2000000 250000)
+    (connect (terminal pin J6-0) (terminal pin RELAY-0))
+   )
+   )
+   (Net #00033 
+   (rule
+   )
+   (wire (path BOT 101600  3254000 3250000 3254000 3556000 -1524000 3556000
+     -1524000 3000000 -2000000 3000000)
+    (connect (terminal pin LCD-1) (terminal pin MOSFET1-2))
+   )
+   )
+   (Net #00034 
+   (rule
+   )
+   (wire (path BOT 101600  4500000 3000000 4500000 2540000 5588000 2540000
+     5588000 -825500 3556000 -825500 3556000 -516000)
+    (connect (terminal pin J11-0) (terminal wire))
+   )
+   (wire (path BOT 101600  -2254000 3000000 -2254000 3683000 4500000 3683000
+     4500000 3000000)
+    (connect (terminal pin MOSFET1-1) (terminal pin J11-0))
+   )
+   (wire (path BOT 101600  3556000 -516000 3250000 -516000)
+    (connect (terminal wire) (terminal pin 10K3-1))
+   )
+   (wire (path BOT 101600  -3270000 3000000 -3270000 2540000 -2254000 2540000)
+    (connect (terminal pin MOSFET-1) (terminal wire))
+   )
+   (wire (path BOT 101600  -2254000 2540000 -2095500 2540000 -2095500 2500000
+     -1500000 2500000)
+    (connect (terminal wire) (terminal pin J7-0))
+   )
+   (wire (path BOT 101600  3750000 -516000 3556000 -516000)
+    (connect (terminal pin 10K4-1) (terminal wire))
+   )
+   (wire (path BOT 101600  3250000 -516000 2750000 -516000)
+    (connect (terminal pin 10K3-1) (terminal pin 10K2-1))
+   )
+   (wire (path BOT 101600  2250000 -516000 2750000 -516000)
+    (connect (terminal pin 10K1-1) (terminal pin 10K2-1))
+   )
+   (wire (path BOT 101600  -2254000 2540000 -2254000 3000000)
+    (connect (terminal wire) (terminal pin MOSFET1-1))
+   )
+   )
+   (Net #00035 
+   (rule
+   )
+   (wire (path BOT 101600  -2734000 766000 -2734000 254000 -2484000 254000
+     -2484000 0)
+    (connect (terminal pin "BATTERY PORT"-1) (terminal pin D1-0))
+   )
+   (wire (path BOT 101600  -2484000 0 -2250000 0 -2250000 -750000)
+    (connect (terminal pin D1-0) (terminal pin "POWER PIIN"-0))
+   )
+   )
+   (Net #00036 
+   (rule
+   )
+   (wire (path BOT 101600  -3016000 3000000 -3016000 3238500 -3746500 3238500
+     -3746500 -4191000 1774000 -4191000 1774000 -3750000)
+    (connect (terminal pin MOSFET-2) (terminal pin BLUETOOTH-3))
+   )
+   )
+   (Net #00037 
+   (rule
+   )
+   (wire (path BOT 101600  -2750000 2750000 -2508000 2750000 -2508000 3000000)
+    (connect (terminal pin J5-0) (terminal pin MOSFET1-0))
+   )
+   )
+   (Net #00038 
+   (rule
+   )
+   (wire (path BOT 101600  2000000 3250000 1500000 3250000)
+    (connect (terminal pin 220R-0) (terminal pin D2-0))
+   )
+   )
+   (Net #00039 
+   (rule
+   )
+   )
+   (Net #00040 
+   (rule
+   )
+   )
+  )
+ )
